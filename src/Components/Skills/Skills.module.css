@@ -1,0 +1,29 @@
+.skilltitle{
+    padding: 4%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.skillcon{ 
+    padding: 4%;
+    text-align: center;
+    max-width: 55%;
+    justify-content: space-evenly;
+}
+
+.skillrow{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 769px){
+    .skillcon{
+        max-width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .skillrow{
+        padding-top: 10%;
+    }
+}

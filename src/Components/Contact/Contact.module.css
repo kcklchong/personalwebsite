@@ -1,0 +1,37 @@
+.contacttitle{
+    padding: 4%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.formcontainer{
+    width:50%;
+    
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+    border:3px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social{
+    margin: 5% 35%;
+    text-align: center;
+}
+
+.social a{
+    margin: 0 10px;
+}
+
+@media (max-width: 769px){
+    .formcontainer{
+        width: 80%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .social{
+        margin: auto;
+        width: 80%;
+    }
+}

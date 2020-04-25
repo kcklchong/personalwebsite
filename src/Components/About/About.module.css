@@ -1,0 +1,17 @@
+.About{
+    max-width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    min-height:100%;
+}
+
+.About p{
+    text-align: justify;
+}
+
+
+@media (max-width: 769px){
+    .About{
+        max-width: 75%;
+    }
+}

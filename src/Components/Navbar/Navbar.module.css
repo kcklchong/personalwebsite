@@ -1,0 +1,12 @@
+.Nav ul a:hover,
+.Nav ul a:active{
+    text-decoration: underline;
+    text-decoration-color: #fe5a1d;
+    color: #fe5a1d;
+}
+
+@media (min-width: 769px){
+    .NavbarToggleButton{
+        display: none;
+    }
+}

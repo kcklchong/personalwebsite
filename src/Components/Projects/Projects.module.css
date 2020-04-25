@@ -1,0 +1,21 @@
+.projecttitle{
+    padding: 4%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* .projectcard{
+    height:43rem;
+} */
+
+@media (min-width: 769px){
+    .projectrow{
+        justify-content:space-evenly;
+        display:flex;
+        padding-top:3%;
+        
+    }
+    .projectcard{
+        height:40rem; 
+    }
+} 

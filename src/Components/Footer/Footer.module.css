@@ -1,0 +1,12 @@
+.FooterRow{
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+    border-top: 1px solid black;
+    padding: 1%;
+    font-size: 12px;
+    background-color:#303030;
+    color: white;
+    align-content: inherit;
+    margin-bottom: 0;
+}
